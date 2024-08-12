@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Inter", sans-serif;    
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+nav{
+    padding: 20px;
+    border-bottom: 0.0625rem solid rgb(218, 220, 224);
+}
+
+img{
+    max-width: 100%;
+    width:100%
+}
+
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo a{
+
+}
+.logo a img{
+    width: 150px;
+}
+
+.menu{
+    flex-basis: 60%;
+    max-width: 60%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{}
+.menu ul li a{
+    display: block;
+    color:#000;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.menu ul li a:hover{}
+
+.cart {
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.cart ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    gap:5px
+}
+.cart ul li{}
+.cart ul li a{
+    display: block;
+}
+.cart ul li a:hover{}
+.cart ul li a svg{
+    height: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.align-center{
+    align-items: center;
+} 
+.justify-center{
+    justify-content: center;
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+}
+.flexBoxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexBoxes .column{
+    width: 33.33%;
+    padding: 10px;
+}
+.imageBox {
+    background: url(https://www.cnet.com/a/img/resize/80161ffbe9d40cf8bb877242efc50a9d669e0819/hub/2021/11/11/95b342b3-bc11-4694-b1dd-b96f8bc6de37/amazon-thermostat-2.jpg?auto=webp&fit=crop&height=360&width=640);
+    background-blend-mode: multiply;
+    color: white;
+    min-height: 350px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    background-color: #b0a798;
+    box-shadow: 0px 0px 42px #99333330;
+}
+h2{
+    font-size: 20px;
+}
+.anotherLaout{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.anotherLaout .column1{
+    width: 33.33%;
+    padding: 10px;
+}
+
+.anotherLaout .column2{
+    width: 66.66%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 0px;
+    padding-left: 10px;
+}
+.column2_fullWidth{
+    background: url(https://www.cnet.com/a/img/resize/80161ffbe9d40cf8bb877242efc50a9d669e0819/hub/2021/11/11/95b342b3-bc11-4694-b1dd-b96f8bc6de37/amazon-thermostat-2.jpg?auto=webp&fit=crop&height=360&width=640);
+    background-blend-mode: multiply;
+    background-color: #b0a798;
+    min-height: 200px;
+    background-position: center;
+    border-radius: 15px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding:10px;
+    
+}
+.column2_bothImages{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between    
+}
+.column2_image1{
+    background: url(https://www.cnet.com/a/img/resize/80161ffbe9d40cf8bb877242efc50a9d669e0819/hub/2021/11/11/95b342b3-bc11-4694-b1dd-b96f8bc6de37/amazon-thermostat-2.jpg?auto=webp&fit=crop&height=360&width=640);
+    background-blend-mode: multiply;
+    background-color: #b0a798;
+    width: calc(50% - 5px);
+    height: 183px;
+    background-size: cover;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding:10px;
+    background-position: center;
+}
+
+.layout-section{
+    max-width: 80%;
+    margin: 0 auto;
+}

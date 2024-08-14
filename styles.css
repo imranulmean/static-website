@@ -207,6 +207,22 @@ article p span{
 }
 
 /* ////////////////////////////// */
+/* .assignment-nav{
+    color:white;
+    background-color: #33302e;
+    border-bottom: none;    
+}
+.assignment-logo{
+    flex-basis: 10%;
+    max-width: 10%;    
+}
+.assignment-menu{
+    flex-basis: 80%;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    
+} */
 .assignment-container{
     max-width: 100%;
 }
